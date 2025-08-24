@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.court-section {
+  background-color: #0074d9;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.court-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.done-btn {
+  background-color: white;
+  color: #0074d9;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.court-players {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.add-court {
+  width: 300px;
+}
+
+.dashed-box {
+  border: 2px dashed #99c2ff;
+  height: 150px;
+  border-radius: 10px;
+}

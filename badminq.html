@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Badminton Queue</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <!-- Court Section -->
+      <!-- <div class="court-section">
+        <div class="court-header">
+          <h2>COURT 1</h2>
+          <button class="done-btn">DONE</button>
+        </div>
+        <div class="court-players">
+          <div class="player green">Dobbs ♂</div>
+          <div class="player pink">Catey ♀</div>
+          <div class="player green">Jojo ♂</div>
+          <div class="player green">Ganda ♂</div>
+        </div>
+      </div> -->
+      <div class="court-section">
+        <h2>Court 1</h2>
+        <button class="play-btn" data-court="1">PLAY!</button>
+        <button class="done-btn" data-court="1">DONE!</button>
+        <ul class="court-list" id="court-list-1"></ul>
+      </div>
+
+      <div class="court-section">
+        <h2>Court 2</h2>
+        <button class="play-btn" data-court="2">PLAY!</button>
+        <button class="done-btn" data-court="2">DONE!</button>
+        <ul class="court-list" id="court-list-2"></ul>
+      </div>
+
+      <div class="court-section">
+        <h2>Court 3</h2>
+        <button class="play-btn" data-court="3">PLAY!</button>
+        <button class="done-btn" data-court="3">DONE!</button>
+        <ul class="court-list" id="court-list-3"></ul>
+      </div>
+      <!-- Add Court
+      <div class="add-court">
+        <h3>Add new court</h3>
+        <div class="dashed-box"></div>
+      </div> -->
+
+      <!-- Queue Section -->
+      <div class="queue-section">
+        <div class="queue-header">
+          <h2>Queue!!</h2>
+          <button class="next-btn">NEXT</button>
+        </div>
+        <div class="queue-players" id="queue-players"></div>
+
+        <div class="standby">
+          <p id="player-count">0 on standby</p>
+          <input type="text" id="player-name" placeholder="Add Player..." />
+          <button class="add-btn" id="add-btn">ADD PLAYER</button>
+        </div>
+
+        <div class="clear">
+          <button class="clear-btn" id="clear-btn">CLEAR DATA</button>
+        </div>
+
+        <ul class="standby-list" id="standby-list"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
